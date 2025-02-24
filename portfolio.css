@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.contact{
+ background-color: white;   
+}
+.contact .main{
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 20px;
+}
+.contact .main .logo{
+    display: inline-block;
+    width: 83%;
+    padding-left: 10px;
+}
+.awesome{
+    display: flex;
+    flex-wrap: nowrap;
+    text-align: center;
+}
+.awesome .branding .fonts{
+font-size: 250%;
+}
+.awesome .branding{
+    width : 50%;
+    text-align: left;
+    padding-left: 300px;
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+}
+.awesome .imgfigma{
+    padding-right: 400px;
+}
+.imgskill{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    text-align: center;
+}
+.imgskill img{
+    width: 200px;
+}
+.imgskill h1{
+    font-size: 200%;
+}
+.imgskill p{
+    padding-bottom: 200px;
+    font-size: 120%;
+}
+.work {
+    border-bottom: 2px solid black;
+}
+.work .imgwork p {
+    text-align: left;
+    padding-bottom: 100px;
+}
+.work h2{
+    text-align: left;
+}
+.imgwork {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+.imgwork2{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+.submit{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
